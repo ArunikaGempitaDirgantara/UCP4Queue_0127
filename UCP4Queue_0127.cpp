@@ -61,7 +61,7 @@ public:
             else
                 rear = rear + 1; // 5. Make the next field of REAR point to the new node.
         }
-        queue_array[rear] << num; // 6. Make REAR point to the new node.
+        queue_array[rear] = num; // 6. Make REAR point to the new node.
     }
 
     //1. If the queue is empty: // FRONT = NULL
